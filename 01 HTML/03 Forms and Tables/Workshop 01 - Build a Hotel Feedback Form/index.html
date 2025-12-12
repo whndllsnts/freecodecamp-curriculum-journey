@@ -11,6 +11,7 @@
     </header>
     <main>
       <form action="https://hotel-feedback.freecodecamp.org" method="POST">
+        <!-- text, email, number -->
         <fieldset>
           <legend>Personal Information</legend>
           <label for="full-name">Name (required):</label>
@@ -20,6 +21,7 @@
           <label for="age">Age (optional):</label>
           <input type="number" name="age" id="age" min="3" max="100">
         </fieldset>
+        <!-- radio -->
         <fieldset>
           <legend>Was this your first time at our hotel?</legend>
           <input type="radio" name="hotel-stay" id="yes-option">
@@ -27,6 +29,7 @@
           <input type="radio" name="hotel-stay" id="no-option">
           <label for="no-option">No</label>
         </fieldset>
+        <!-- checkbox -->
         <fieldset>
           <legend>Why did you choose to stay at our hotel? (Check all that apply)</legend>
           <input type="checkbox" name="ads" id="ads" value="ads">
@@ -40,9 +43,11 @@
           <input type="checkbox" name="price" id="price" value="price" checked>
           <label for="price">Price</label>
         </fieldset>
+        <!-- select -->
         <fieldset>
           <legend>Ratings</legend>
           <label for="service">How was the service?</label>
+          <select name="service" id="service"></select>
         </fieldset>
       </form>
     </main>
