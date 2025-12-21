@@ -61,3 +61,8 @@ hr {
 .bottom-line {
   margin-top: 25px;
 }
+
+/* footer */
+footer {
+  font-size: 14px;
+}
