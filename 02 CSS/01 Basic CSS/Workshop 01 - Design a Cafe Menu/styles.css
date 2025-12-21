@@ -34,6 +34,10 @@ h2 {
   font-style: italic;
 }
 
+hr {
+  height: 3px;
+}
+
 .flavor, .dessert {
   text-align: left;
   width: 75%;
