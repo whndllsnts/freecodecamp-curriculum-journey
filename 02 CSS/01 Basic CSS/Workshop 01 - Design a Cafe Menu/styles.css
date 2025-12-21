@@ -22,6 +22,10 @@ h1, h2, p {
   max-width: 500px;
 }
 
+.established {
+  font-style: italic;
+}
+
 .flavor, .dessert {
   text-align: left;
   width: 75%;
