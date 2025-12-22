@@ -23,6 +23,12 @@ h2 {
   font-size: 30px
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .menu {
   width: 300px;
   background-color: burlywood;
