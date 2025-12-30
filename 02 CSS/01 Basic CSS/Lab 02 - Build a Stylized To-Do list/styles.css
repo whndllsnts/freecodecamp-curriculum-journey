@@ -1,0 +1,29 @@
+/* Remove text decoration */
+.sub-item-link {
+    text-decoration: none;
+}
+
+/* Unvisited link */
+.sub-item-link:link {
+    color: blue;
+}
+
+/* Visited link */
+.sub-item-link:visited {
+    color: purple;
+}
+
+/* Hovered link */
+.sub-item-link:hover {
+    color: green;
+}
+
+/* Focused link */
+.sub-item-link:focus {
+    outline: 2px solid orange;
+}
+
+/* Active (clicked) link */
+.sub-item-link:active {
+    color: red;
+}
