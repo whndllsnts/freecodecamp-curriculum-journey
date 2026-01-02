@@ -1,0 +1,54 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      padding: 40px;
+    }
+
+    /* Blog card container */
+    .blog-post-card {
+      background-color: white;
+      width: 320px;
+      border-radius: 10px;
+      text-align: center;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Image */
+    .post-img {
+      width: 100%;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    /* Content */
+    .post-content {
+      padding: 16px;
+    }
+
+    /* Title */
+    .post-title {
+      margin: 10px;
+      color: #333;
+    }
+
+    /* Excerpt */
+    .post-excerpt {
+      margin: 10px;
+      color: #555;
+    }
+
+    /* Read More button */
+    .read-more {
+      display: inline-block;
+      margin: 12px;
+      padding: 10px 16px;
+      color: white;
+      background-color: #007bff;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .read-more:hover {
+      background-color: #0056b3;
+    }
